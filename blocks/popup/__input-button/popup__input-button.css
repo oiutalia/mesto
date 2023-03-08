@@ -1,0 +1,21 @@
+.popup__input-button {
+    width: 100%;
+    padding: 14px 125px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 48px;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .popup__input-button {
+            padding: 14px 82px;
+            margin-top: 44px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+}

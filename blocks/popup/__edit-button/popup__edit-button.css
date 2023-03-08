@@ -1,0 +1,27 @@
+.popup__edit-button {
+    background-image: url(../../../images/Close\ Icon.png);
+    height: 32px;
+    width: 32px;
+    border: 0;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.popup__edit-button:hover {
+    opacity: 0.6;
+}
+
+
+@media (max-width: 768px) {
+    .popup__edit-button {
+        height: 20px;
+        width: 20px;
+        top: -36px;
+        right: 0;
+    }
+}
