@@ -5,9 +5,11 @@
     gap: 8px 18px;
     align-items: baseline;
 }
+
 @media (max-width: 425px) {
     .profile__info {
         column-gap: 9px;
         grid-template-columns: 189px 24px;
+        margin: -8px 0 -2px 30px;
     }
 }

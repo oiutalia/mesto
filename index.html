@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Место</title>
 </head>
 <body class="page">
@@ -24,42 +23,42 @@
         </section>
         <section class="elements">
             <ul class="elements__grid">
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
                     <div class="element__description">
                         <h2 class="element__tittle">Карачаевск</h2>
                         <button class="button element__button" type="button"></button>
                     </div>
                 </li>
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус">
                     <div class="element__description">
                         <h2 class="element__tittle">Гора Эльбрус</h2>
                         <button class="button element__button" type="button"></button>
                     </div>
                 </li>
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
                     <div class="element__description">
                         <h2 class="element__tittle">Домбай</h2>
                         <button class="button element__button" type="button"></button>
                     </div>
                 </li>
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус">
                     <div class="element__description">
                         <h2 class="element__tittle">Гора Эльбрус</h2>
                         <button class="button element__button" type="button"></button>
                     </div>
                 </li>
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
                     <div class="element__description">
                         <h2 class="element__tittle">Домбай</h2>
                         <button class="button element__button" type="button"></button>
                     </div>
                 </li>
-                <li class="element elements__grid-element">
+                <li class="element">
                     <img class="element__photo" src="images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
                     <div class="element__description">
                         <h2 class="element__tittle">Карачаевск</h2>
@@ -73,14 +72,16 @@
         <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
     </footer>
     <div class="popup">
-        <form class="popup__container">
+        <div  class="popup__container">
             <button class="popup__edit-button button" type="button" value="close"></button>
-            <h3 class="popup__tittle">Редактировать профиль</h3>
-            <input  class="popup__input popup__input-name"  value="" name="user_name"  placeholder="Имя" type="text">
-            <input  class="popup__input popup__input-job" value="" name="user_job"  placeholder="Что-то о себе" type="text">
-            <button class="popup__input popup__input-button" type="submit" value="save">Сохранить</button>
+        <h3 class="popup__tittle">Редактировать профиль</h3>
+        <form name="form-popup" class="form-popup">
+            <input  class="popup__input popup__input_string_name"  value="" name="user_name"  placeholder="Имя" type="text">
+            <input  class="popup__input popup__input_string_job" value="" name="user_job"  placeholder="Что-то о себе" type="text">
+            <button class="popup__input-button" type="submit" value="save">Сохранить</button>
         </form> 
-        <script src="script.js"></script>
+        </div>   
     </div>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
