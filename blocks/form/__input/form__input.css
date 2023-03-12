@@ -1,4 +1,4 @@
-.popup__input {
+.form__input {
     border: 0;
     display: flex;
     flex-direction: column;
@@ -7,21 +7,28 @@
     line-height: 17px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 0 0 8px;
-    margin: 0;
+    margin: 0 0 31px;
     width: 100%;
     max-width: 358px;
 }
 
 
-.popup__input:last-of-type {
-    margin-bottom: 21px;
+.form__input:last-of-type {
+    margin-bottom: 49px;
 }
 
 @media (max-width: 425px) {
-.popup__input {
+.form__input {
     padding-bottom: 8px;
     max-width: 238px;
     font-size: 14px;
     line-height: 17px;
 
 } }
+
+@media (max-width: 425px) {
+    .form__input:last-of-type {
+        margin-bottom: 45px;
+    }
+    
+}

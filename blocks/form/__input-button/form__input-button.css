@@ -1,4 +1,4 @@
-.popup__input-button {
+.form__input-button {
     width: 100%;
     padding: 14px 133px;
     background-color: #000;
@@ -13,13 +13,13 @@
     cursor: pointer;
 }
 
-.popup__input-button:hover {
+.form__input-button:hover {
     opacity: 0.8;
 }
 
 
 @media (max-width: 768px) {
-    .popup__input-button {
+    .form__input-button {
         padding: 14px 82px;
         max-height: 238px;
         font-size: 14px;
