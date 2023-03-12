@@ -10,7 +10,6 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    margin-top: 47px;
     cursor: pointer;
 }
 
@@ -22,7 +21,6 @@
 @media (max-width: 768px) {
     .popup__input-button {
         padding: 14px 82px;
-        margin-top: 44px;
         max-height: 238px;
         font-size: 14px;
         line-height: 17px;

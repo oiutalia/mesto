@@ -74,10 +74,12 @@
     <div class="popup">
         <div  class="popup__container">
             <button class="popup__edit-button button" type="button" value="close"></button>
-        <h3 class="popup__tittle">Редактировать профиль</h3>
-        <form name="form-popup" class="form-popup">
+        <h2 class="popup__tittle">Редактировать профиль</h2>
+        <form name="form" class="form">
             <input  class="popup__input popup__input_string_name"  value="" name="user_name"  placeholder="Имя" type="text">
+            <span class="form__span_eror name-input-eror"></span>
             <input  class="popup__input popup__input_string_job" value="" name="user_job"  placeholder="Что-то о себе" type="text">
+            <span class="form__span_eror job-input-error"></span>
             <button class="popup__input-button" type="submit" value="save">Сохранить</button>
         </form> 
         </div>   

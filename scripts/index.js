@@ -13,14 +13,14 @@ let jobInput = formElement.querySelector ('.popup__input_string_job');
 
 
 function openPopup () {
-    popupElement.classList.add('popup__opened');
+    popupElement.classList.add('popup_opened');
     nameInput.value = getName.textContent;
     jobInput.value = getJob.textContent;
 }
   
 
 function closePopup () {
-  popupElement.classList.remove ('popup__opened');
+  popupElement.classList.remove ('popup_opened');
 }
 
 
